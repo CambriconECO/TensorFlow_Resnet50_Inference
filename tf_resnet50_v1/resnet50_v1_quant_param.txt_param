@@ -1,0 +1,10 @@
+bit_width:8
+quant_mode:naive
+
+convfirst_param:
+{
+node_name: resnet_v1_50/conv1/Conv2D 
+mean:124, 116, 127 
+std: 1,1,1
+color_mode: rgb
+}
